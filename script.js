@@ -21,7 +21,7 @@ $(document).ready(function() {
 	});
 
 	$(".card p").click(function(){
-		console.log("click")
+		console.log("click");
 		$(this).children("a").addClass("lit");
 	})
 
